@@ -1,0 +1,133 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+    #full-container{
+    background-color:#356868;
+    width:100%;
+    }
+header{
+    display: flex;
+    height: 35px;
+    background-color:#356868;
+    width:100%;
+    
+}
+.header-name{
+    display:inline-block;
+    text-decoration: none;
+    margin:10px;
+    margin-left: 8px;
+    font-size: 17px;
+    align-items: center;
+    padding-top:21px;
+    color: white;;
+    cursor: pointer;
+}
+#full-container{
+    height:80px;
+    padding:5px;
+    text-align: right;
+}
+#reg{
+    border:2px solid white;
+    border-radius:25px;
+    padding:10px;
+}
+#images-log{
+height:40px;
+width:64px;
+margin:0px;
+padding: 8px;
+
+}
+.head-name{
+    display: inline-block;
+    margin:20px;
+   
+}
+#head{
+    text-align: right;
+    background-color:#2A5353;
+    color:white;
+    height:65px;
+    width:100%;
+}
+#head img{
+    float:left;
+    padding: 11 20px 13px 17px;
+}
+#head-name-left{
+    float:left;
+    padding: 17px 20px 20px 0px;
+}
+#a{
+    border:0.2px solid white;
+    border-radius:5px;
+    padding:6px;
+    height:18px;
+    width:20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#b{
+    border:0.2px solid white;
+    height:18px;
+    width:20px;
+    border-radius:5px;
+    padding:6px;
+    padding-left: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+#c{
+    border:0.2px solid white;
+    border-radius:5px;
+    padding:6px;
+    height:18px;
+    width:20px;
+    text-align: center;
+    cursor: pointer;
+}
+.head-name:hover{
+    color: yellow;
+ 
+    border-color: black;
+}
+#covid{
+    position: absolute;
+    top:92px ;
+    left:33px;
+    font-size: 30px;
+    color:white;
+   
+}
+#main-body{
+    background-image: url('flag.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+   height: 500px;
+    width:100%;
+}
+#images-modiji{
+    height:500px;
+    width:412px;
+    position: absolute;
+    right:20px;
+    top:155px;
+}
+#quota{
+    position: absolute;
+    left:20px;
+    top:350px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.header-name:hover{
+    color: yellow;
+ 
+    border-color: black;
+}
